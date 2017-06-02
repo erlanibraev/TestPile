@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F8746109-FC47-44E5-B32F-F259B14484FC}</ProjectGuid>
+    <ProjectGuid>{E796CD67-8604-497F-BECB-7D6B9DA0F549}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Test001</RootNamespace>
-    <AssemblyName>Test001</AssemblyName>
+    <RootNamespace>Test002</RootNamespace>
+    <AssemblyName>Test002</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -64,8 +64,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PileSinglton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestLinkedList.cs" />
+    <Compile Include="TestLinkedListNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

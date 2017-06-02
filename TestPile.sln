@@ -5,9 +5,27 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestPile", "TestPile\TestPile.shproj", "{69D6D12D-FCB4-4A55-8B80-DEEBAF76A40D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test001", "Test001\Test001.csproj", "{F8746109-FC47-44E5-B32F-F259B14484FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test002", "Test002\Test002.csproj", "{E796CD67-8604-497F-BECB-7D6B9DA0F549}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TestPile\TestPile.projitems*{69d6d12d-fcb4-4a55-8b80-deebaf76a40d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8746109-FC47-44E5-B32F-F259B14484FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8746109-FC47-44E5-B32F-F259B14484FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8746109-FC47-44E5-B32F-F259B14484FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8746109-FC47-44E5-B32F-F259B14484FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E796CD67-8604-497F-BECB-7D6B9DA0F549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E796CD67-8604-497F-BECB-7D6B9DA0F549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E796CD67-8604-497F-BECB-7D6B9DA0F549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E796CD67-8604-497F-BECB-7D6B9DA0F549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
