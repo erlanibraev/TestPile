@@ -16,6 +16,9 @@ namespace TestPile.Test002
             DefaultPile result = new DefaultPile();
             result.Configure(null);
             result.AllocMode = AllocationMode.ReuseSpace;
+
+            result.SegmentSize = 256 * 1025 * 1024;
+
             result.Start();
             return result;
         }

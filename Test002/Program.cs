@@ -10,8 +10,32 @@ namespace TestPile.Test002
     {
         static void Main(string[] args)
         {
-            test001();
+            //test001();
+            //Console.ReadLine();
+            test002();
             Console.ReadLine();
+            PileSinglton.donePile();
+        }
+
+        private static void test002()
+        {
+            TestLinkedList<string> test = new TestLinkedList<string>();
+            TestLinkedListNode<string> current = test.AddFirst(Guid.NewGuid().ToString());
+            while (true)
+            {   
+                try
+                {
+                    current = test.AddAfter(current, (Guid.NewGuid().ToString()));
+                } catch(Exception ex)
+                {
+                    
+                    Console.WriteLine(test.Count);
+                    Console.WriteLine("---");
+                    Console.WriteLine(ex);
+                    break;
+                }
+                
+            }
         }
 
         private static void test001()

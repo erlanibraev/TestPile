@@ -12,7 +12,7 @@ namespace TestPile.Test002
     {
         public TestLinkedListNode<T> Last { get; set; } = null;
         public TestLinkedListNode<T> First { get; set; } = null;
-        public int Count { get; set; }
+        public int Count { get; set; } = 0;
 
         public void AddFirst(TestLinkedListNode<T> first)
         {
@@ -26,6 +26,7 @@ namespace TestPile.Test002
             {
                 Last = First;
             }
+            Count++;
         }
 
         public TestLinkedListNode<T> AddFirst(T value)
@@ -47,6 +48,7 @@ namespace TestPile.Test002
             {
                 First = Last;
             }
+            Count++;
         }
 
         public TestLinkedListNode<T> AddLast(T value)
@@ -69,6 +71,7 @@ namespace TestPile.Test002
                 Last = val;
             }
             val.Previous = current;
+            Count++;
         }
 
         public TestLinkedListNode<T> AddAfter(TestLinkedListNode<T> current, T val)
