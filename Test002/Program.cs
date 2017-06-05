@@ -28,7 +28,7 @@ namespace TestPile.Test002
                     current = test.AddAfter(current, (Guid.NewGuid().ToString()));
                 } catch(Exception ex)
                 {
-                    
+                    Console.WriteLine(PileSinglton.PILE.ObjectCount);
                     Console.WriteLine(test.Count);
                     Console.WriteLine("---");
                     Console.WriteLine(ex);

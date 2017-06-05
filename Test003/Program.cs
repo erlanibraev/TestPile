@@ -21,7 +21,7 @@ namespace TestPile.Test003
             {
                 try
                 {
-                    m_Pile.Put(i);
+                    m_Pile.Put(Guid.NewGuid().ToString());
                     i++;
                 } catch(Exception ex)
                 {
