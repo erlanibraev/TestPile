@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test003", "Test003\Test003.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test004", "Test004\Test004.csproj", "{3D96981F-5DCA-408B-9D7D-1751002A0C50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test006", "Test006\Test006.csproj", "{C4513EE9-46E0-4192-BD64-C7DA9F0DB8D8}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TestPile\TestPile.projitems*{69d6d12d-fcb4-4a55-8b80-deebaf76a40d}*SharedItemsImports = 13
@@ -38,6 +40,10 @@ Global
 		{3D96981F-5DCA-408B-9D7D-1751002A0C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D96981F-5DCA-408B-9D7D-1751002A0C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D96981F-5DCA-408B-9D7D-1751002A0C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4513EE9-46E0-4192-BD64-C7DA9F0DB8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4513EE9-46E0-4192-BD64-C7DA9F0DB8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4513EE9-46E0-4192-BD64-C7DA9F0DB8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4513EE9-46E0-4192-BD64-C7DA9F0DB8D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,10 +10,10 @@ namespace TestPile.Test002
     {
         static void Main(string[] args)
         {
-            //test001();
-            //Console.ReadLine();
-            test002();
+            test001();
             Console.ReadLine();
+            //test002();
+            //Console.ReadLine();
             PileSinglton.donePile();
         }
 
